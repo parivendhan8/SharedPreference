@@ -14,7 +14,6 @@ public class List extends AppCompatActivity {
     private int listViewTouchAction = -1;
     private boolean set = false;
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
