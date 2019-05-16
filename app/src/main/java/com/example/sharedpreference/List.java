@@ -15,7 +15,6 @@ public class List extends AppCompatActivity {
     private boolean set = false;
 
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
