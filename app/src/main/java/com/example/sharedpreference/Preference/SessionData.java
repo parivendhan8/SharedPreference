@@ -1,4 +1,4 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
 public class SessionData {
 

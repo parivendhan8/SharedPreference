@@ -1,11 +1,11 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
-import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.example.sharedpreference.R;
 
 public class MainActivity extends Preference {
 

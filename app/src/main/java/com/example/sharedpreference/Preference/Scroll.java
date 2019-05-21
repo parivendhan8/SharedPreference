@@ -1,4 +1,4 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ScrollView;
+
+import com.example.sharedpreference.R;
 
 public class Scroll extends Preference {
 

@@ -1,4 +1,4 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;

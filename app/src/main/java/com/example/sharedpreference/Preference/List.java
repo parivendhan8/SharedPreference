@@ -1,10 +1,15 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.sharedpreference.R;
 
 import java.util.ArrayList;
 
@@ -23,6 +28,11 @@ public class List extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(List.this, android.R.layout.simple_list_item_1, getString());
         listView.setAdapter(adapter);
+
+
+        listView.setOnItemClickListener((a, b, c, d) -> {
+
+        });
 
 
     }

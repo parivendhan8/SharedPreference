@@ -1,4 +1,4 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -24,8 +24,7 @@ public class MyAdapter extends FragmentPagerAdapter {
                 HomeFragment homeFragment = new HomeFragment();
                 return homeFragment;
             case 1:
-                SecondFragment secondFragment = new SecondFragment();
-                return secondFragment;
+                return new SecondFragment();
 
             default:
                 return null;

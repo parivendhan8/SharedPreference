@@ -1,4 +1,4 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -15,8 +15,9 @@ import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.sharedpreference.R;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class HomeFragment extends Fragment implements Event {
@@ -50,6 +51,8 @@ public class HomeFragment extends Fragment implements Event {
         int count = listView.getCount();
 
         ViewParent parent = listView.getParent();
+
+
 
 
         SessionData.getInstance().setEvent(this);

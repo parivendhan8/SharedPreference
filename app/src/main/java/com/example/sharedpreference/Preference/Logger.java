@@ -1,4 +1,4 @@
-package com.example.sharedpreference;
+package com.example.sharedpreference.Preference;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
