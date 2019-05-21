@@ -47,7 +47,6 @@ public class RelativeLayoutTouchListener implements View.OnTouchListener
     }
 
 
-
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         switch (event.getAction()) {

@@ -45,4 +45,8 @@ dependencies {
 
 //    implementation 'com.github.armcha:ElasticView:0.2.0'
 
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-alpha2'
+
+
+
 }
