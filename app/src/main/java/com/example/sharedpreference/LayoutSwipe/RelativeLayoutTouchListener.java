@@ -3,7 +3,6 @@ package com.example.sharedpreference.LayoutSwipe;
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
-import android.view.ContextMenu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;

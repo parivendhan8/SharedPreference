@@ -8,28 +8,43 @@
     <ScrollView
         android:layout_width="match_parent"
         android:background="#DADADA"
-        android:layout_height="900dp">
+        android:layout_height="wrap_content"
+        android:visibility="gone">
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="visible">
-
-            <ListView
-                android:id="@+id/listView"
-                android:layout_width="match_parent"
-                android:layout_height="248dp" />
-            
-            
-
+            >
 
         </LinearLayout>
 
     </ScrollView>
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        >
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
 
 </LinearLayout>
